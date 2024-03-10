@@ -10,5 +10,5 @@ pip install numpy pandas matplotlib seaborn streamlit
 
 ## Run steamlit app lokal
 ```
-streamlit run dashboard.py
+streamlit run dasboard.py
 ```
