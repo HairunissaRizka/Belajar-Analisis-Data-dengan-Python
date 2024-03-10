@@ -8,8 +8,8 @@ import seaborn as sns
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load the data
-df_day = pd.read_csv("C:/Users/anisa/proyek_analisis_data/day.csv")
-df_hour = pd.read_csv("C:/Users/anisa/proyek_analisis_data/hour.csv")
+df_day = pd.read_csv("/day.csv")
+df_hour = pd.read_csv("/hour.csv")
 
 # Data Cleaning
 df_day["dteday"] = pd.to_datetime(df_day["dteday"])
