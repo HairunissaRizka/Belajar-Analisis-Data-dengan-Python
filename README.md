@@ -1,3 +1,6 @@
+
+pastikan untuk menyesuaikan path day.csv dan hour.csv sesuai locationnya
+
 ## Setup environment
 ```
 conda create --name main-ds python=3.9
